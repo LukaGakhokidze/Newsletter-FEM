@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Newsletter-FEM-1/',
+  base: '/Newsletter-FEM/',
   plugins: [react()]
 });
