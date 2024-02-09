@@ -31,7 +31,7 @@ function App() {
   }
 
   return (
-    <div className='flex items-center justify-center w-screen h-screen overflow-hidden bg-charcoal_grey'>
+    <div className='flex items-center justify-center w-screen h-screen  bg-charcoal_grey'>
       {submitted && isValid ? (
         <Success email={email} onDismiss={handleDismiss} />
       ) : (
