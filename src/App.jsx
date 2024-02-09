@@ -35,14 +35,14 @@ function App() {
       {submitted && isValid ? (
         <Success email={email} onDismiss={handleDismiss} />
       ) : (
-        <div className='app desktop: h-screen w-screen items-center justify-items-end rounded-[36px] bg-white desktop:grid desktop:h-4/6 desktop:w-8/12 desktop:grid-cols-2 desktop:grid-rows-1 desktop:pr-6'>
+        <div className='app h-screen w-screen desktop:items-center desktop:justify-items-end desktop:rounded-[36px] bg-white desktop:grid desktop:h-4/6 desktop:w-8/12 desktop:grid-cols-2 desktop:grid-rows-1 desktop:pr-6'>
           <img
             className='hidden mb-0 desktop:order-2 desktop:block'
             src='assets/images/illustration-sign-up-desktop.svg'
             alt='illustration'
           />
           <img
-            className='mb-10 desktop:order-2 desktop:hidden'
+            className='mb-10 object-cover desktop:order-2 desktop:hidden'
             src='assets/images/illustration-sign-up-mobile.svg'
             alt='illustration'
           />
